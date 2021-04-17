@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <!-- This tells the player who's turn it is, starting with X -->
+        <br>
+        <h1 id="content" class="text-center">X</h1>
+        <br>
+
+
+        <!-- This is the games frame and the contents of each button are inside -->
+        <div class="card text-center p-5">
+            <div class="card-body">
+                <div class="row" >
+                    <!-- each button has a different ID to achieve the classic tic tac toe border -->
+                    <div class="col-sm bord" id="topl">
+                        <button class="btn p-5 topRow" id="b1"></button>
+                    </div>
+                    <div class="col-sm bord" id="topm">
+                        <button class="btn p-5 topRow" id="b2"></button>
+                    </div>
+                    <div class="col-sm bord" id="topr">
+                        <button class="btn p-5 topRow" id="b3"></button>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-sm bord" id="midl">
+                        <button class="btn p-5 midRow" id="b4"></button>
+                    </div>
+                    <div class="col-sm bord" id="midm">
+                        <button class="btn p-5 midRow" id="b5"></button>
+                    </div>
+                    <div class="col-sm bord" id="midr">
+                        <button class="btn p-5 midRow" id="b6"></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm bord" id="btml">
+                        <button class="btn p-5 btmRow" id="b7"></button>
+                    </div>
+                    <div class="col-sm bord" id="btmm">
+                        <button class="btn p-5 btmRow" id="b8"></button>
+                    </div>
+                    <div class="col-sm bord" id="btmr">
+                        <button class="btn p-5 btmRow" id="b9"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="text-center">
+            <h1 class="winner" id="winnerId">The Winner Is...</h1>
+        </div>
+
+        <!-- This button resets the entire board -->
+        <br>
+        <div class="text-center">
+            <button class="reset" id='restart'>Reset The Board</button>
+        </div>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

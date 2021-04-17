@@ -1,0 +1,57 @@
+.btn{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: 40px;
+    width:100%;
+    display:block;
+} 
+
+.reset{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: 40px;
+    width:100%;
+    display:block;
+
+}
+
+.bord {
+    border:3px black solid;
+}
+
+#topl{
+    border-left: 0;
+    border-top: 0;
+}
+#topm{
+    border-top: 0;
+}
+#topr{
+    border-right: 0;
+    border-top: 0;
+}
+#midl{
+    border-left: 0;
+}
+#midr{
+    border-right: 0;
+}
+#btml{
+    border-left: 0;
+    border-bottom: 0;
+}
+#btmm{
+    border-bottom: 0;
+}
+#btmr{
+    border-right: 0;
+    border-bottom: 0;
+}
